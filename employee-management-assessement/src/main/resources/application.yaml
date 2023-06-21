@@ -1,0 +1,19 @@
+#spring.datasource:
+  #url: jdbc:sqlserver://localhost:9433;databaseName=EmployeeManagementAssessement;encrypt=false
+  #username: sa
+  #password: admin#123
+  
+#spring.jpa:
+  #hibernate.ddl-auto: create
+  #show-sql: true
+  
+spring:
+  jpa:
+    #database: usersJwt
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;databaseName=EmployeeManagementAssessement;encrypt=false
+    username: sa
+    password: admin#123
